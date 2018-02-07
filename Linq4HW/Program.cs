@@ -287,6 +287,8 @@ namespace Linq4HW
             XElement JobCounts = new XElement("Areas", grouped);
             Console.WriteLine("\nb.Количество работ на каждой зоне с указанием наименования зоны:\n {0}", JobCounts.ToString());
 
+
+
             //c.Сумму потраченного времени на каждой зоне
             var tgrouped = XDocAreas.Root.Elements("Area").Join(
                             Timers.Elements("Timer"),
