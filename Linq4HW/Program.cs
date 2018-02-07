@@ -16,7 +16,11 @@ namespace Linq4HW
         public static Model.Model1 db = new Model.Model1();
           static void Main(string[] args)
         {
-            Task12();
+            //нужно в корне создать папки с Task1 по Task9
+            Task1();
+            //Task2();
+            //...
+            //Task12();
         }
 
         public static void Task1()
